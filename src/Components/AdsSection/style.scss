@@ -1,0 +1,40 @@
+@import "../../Assests/main.scss";
+
+.advertisiment {
+  border: 2px solid #1976d2;
+  padding: 2%;
+
+  .ads {
+    width: 100%;
+  }
+
+  .tags{
+    margin: 10% auto;
+    padding: 20% auto;
+    
+    h4{
+      margin: 3% auto;
+    }
+
+    .tag{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  .recents{
+    margin: 10% auto;
+
+    .cardcontainer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    h4{
+      margin: 3% auto;
+    }
+
+  }
+}
