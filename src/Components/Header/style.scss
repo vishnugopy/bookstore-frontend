@@ -1,34 +1,51 @@
-.ads{
-background-color: rgba(223, 223, 223, 0.171);
-height: 10vh;
-width: 30%;
-display: flex;
-align-items: center;
-justify-content: center;
-border: 2px dotted black;
+@import "../../Assests/main.scss";
+
+.ads {
+  background-color: rgba(223, 223, 223, 0.171);
+  height: 10vh;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dotted black;
 }
 
-.firstline{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 1%;
+.firstline {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1%;
 }
 
+.secondline {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 0.5%;
+  span,
+  a {
+    cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    padding: 0.5% 2%;
+    color: #1976d2;
+    border-radius: 5px;
+    &:hover {
+      filter: opacity(0.7);
+      background: #dceeff69;
+    }
+  }
 
-.secondline{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 0.5%;
-        span , a{
-            background: #1976d273;
-            margin: 0 3%;
-            display: block;
-            text-decoration: none;
-            padding: 0.5% 2% ;
-            color: black;
-        }
-   
+  label {
+      display: flex;
+      
+      span{
+          color: white;
+      }
+    input {
+      padding: 4%;
+    }
+  }
 }
